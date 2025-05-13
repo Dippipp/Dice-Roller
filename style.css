@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  font-family: "Quicksand";
+}
+.container{
+  text-align: center;
+  
+}
+
+h1{
+  font-size: 6rem;
+  
+  margin: 50px 0px;
+  cursor: pointer;
+  transition: color 2.5s;
+}
+
+h1:hover{
+  color: rgb(104, 138, 219);
+}
+
+h2{
+  font-size: 4rem;
+  font-family: "Bebas Neue";
+  display: inline-block;
+  position: relative;
+}
+
+h3{
+  font-size: 1rem;
+  position: relative;
+  bottom: 15px;
+  right: 12px;
+}
+
+img{
+  height: 1.5rem;
+  width: 1.5rem;
+  cursor: pointer;
+  
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.up{
+  position: relative;
+  bottom: 25px;
+}
+
+.down{
+  position: relative;
+  top: 7px;
+  right: 32px;
+}
+
+img:hover{
+  opacity: 0.5;
+}
+
+img:active{
+  opacity: 0.2;
+}
+
+.diceImages img{ /*images that were added through js*/
+  margin: 2px;
+}
